@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+	<parameter name="environment" value="local"/>
+	<parameter name="browser" value="chrome"/>
+	<parameter name="os" value="windows 7"/>	
+	<parameter name = "Username" value ="mohammedyasser.khan@clariontechnologies.co.in"/>
+	<parameter name = "Password" value ="Yasser@123"/>
+	<listeners>
+    	<listener class-name="utility.ExtentTestNGIReporterListener" />
+   	</listeners> 
+   	<!-- Login test -->
+	<test name="Login Test on Chrome"> 
+		<classes>
+	 		<class name="functionality.LoginTest">
+	        	 <methods>
+	         		<include name="loginSuccessful"/>
+				</methods>
+	         </class>
+	     
+	     	 <!-- QuoteEPGrantSubmission-->
+	         <!--<class name="functionality.QuoteEpGrantsubmissionTest">
+	 		 	<methods>
+	 				<include name="QuoteEpGrantsubmissionTest"/>
+	 			</methods>
+	 		</class>-->
+	 		
+	 		<!-- PCT File and translate -->
+	 		<!--<class name="functionality.QuotePCTFileandTranslateTest">
+				<methods>
+					<include name="PCTQuoteSubmissionTesting"/>
+	 			</methods>
+			</class>-->
+		
+	 		<!-- QuoteEpGrantSave-->
+	 		<!--<class name="functionality.QuoteEpgrantSaveTest">
+	 		 	<methods>
+	 				<include name="QuoteEpgrantSaveTesting"/>
+	 			</methods>
+	 		</class>-->
+	 		
+	 		<!--EPGrant retreiving the details -->
+	 		<!--<class name ="functionality.QuoteEP_retrieve_Details_Test">
+	 			<methods>
+	 				<include name="QuoteEP_retrieve_Details_Testing"/>
+	 			</methods>
+	 		</class>-->
+	 		
+	 		<!-- EpGrant manual patent details -->
+	 		<!--<class name = "functionality.QuoteEP_Patent_ManualEntry_Test">
+	 			<methods>
+	 				<include name="QuoteEP_Patent_ManualEntry_Testing"/> 
+	 			</methods>
+	 		</class>-->
+	 		
+	 		<!-- PCT Manual Patent entry-->
+	 		<!--<class name="functionality.QuotePCT_Patent_ManualEntryTest">
+	 		 	<methods>
+	 				<include name="QuotePCT_Patent_ManualEntryTesting"/>
+	 			</methods>
+	 		</class>-->
+	 		
+	 		<!-- Order PCT File and Translate-->
+	 		<!--<class name="functionality.Order_PCt_FileandTranslate_Test">
+	 			<methods>
+	 				<include name="PCTQuoteSubmissionTesting"/>
+	 			</methods>
+	 		</class>-->
+	 		
+	 		<!-- Scrapping EP Number -->
+	 		<!--<class name="functionality.Scrapping_EpNumber_Test">
+	 			<methods>
+	 				<include name="Scrapping_EpNumber_Testing"/>
+	 			</methods>
+	 			</class>-->
+	 			
+	 		<!-- Testing new type 2 OrderEPGrantSubmission-->
+	        <!--<class name="functionality.Order_EP_FilenTranslate_Submission_Test">
+	 		 	<methods>
+	 				<include name="ordertesting"/>
+	 			</methods>
+	 		</class>-->
+	 		
+	 		<!-- Testing new type 2 QuoteEPGrantSubmission-->
+	        <!--<class name="functionality.Quote_EP_FnT_Submission_Test">
+	 		 	<methods>
+	 				<include name="Epquotesubmissiontesting"/>
+	 			</methods>
+	 		</class>-->
+	 		
+	 		<!-- Testing new type 2 QuoteEPGranttranslationSubmission-->
+	        <!--<class name="functionality.Quote_Ep_ClaimsnTranslation_Test">
+	 		 	<methods>
+	 				<include name="Epquotesubmissiontesting"/>
+	 			</methods>
+	 		</class>-->
+	 			 	
+	 		<!-- Testing new type 2 QuoteEPGranttranslationSavetesting-->
+	        <!--<class name="functionality.Quote_EP_FnT_Save_Testing">
+	 		 	<methods>
+	 				<include name="Quote_EP_SaveTest"/>
+	 			</methods>
+	 		</class>-->
+	 		
+	 		<!-- Testing new type 2 QuoteEPGranttranslationSavetesting-->
+	        <class name="functionality.Sanity_Testing_Staging">
+	 		 	<methods>
+	 				<include name="Sanitytest"/>
+	 			</methods>
+	 		</class>
+	 		
+	 			
+	 	</classes>
+ 	</test> 
+<!-- Test -->
+</suite>
+<!-- Suite -->

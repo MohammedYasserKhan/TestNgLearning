@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MorningSideIPPlatform by groups]">
+  <test name="GRP-functest(failed)">
+    <groups>
+      <run>
+        <include name="functest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="functionality.QuoteEpGrantsubmissionTest">
+        <methods>
+          <include name="EPQuoteSubmissionTesting"/>
+        </methods>
+      </class> <!-- functionality.QuoteEpGrantsubmissionTest -->
+    </classes>
+  </test> <!-- GRP-functest(failed) -->
+</suite> <!-- Failed suite [MorningSideIPPlatform by groups] -->

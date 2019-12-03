@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Step 1 : Navigate to Login page : http://ipcalc.azurewebsites.net/]]>
+    </line>
+    <line>
+      <![CDATA[Step 2 : Verifying whether user is logged-in successfully or not]]>
+    </line>
+    <line>
+      <![CDATA[User Logged-In : true]]>
+    </line>
+    <line>
+      <![CDATA[Success !! User Logged-In Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Success !! User logged-in Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Verifying whether user selected ep quote or not]]>
+    </line>
+    <line>
+      <![CDATA[User is now in EP Quote pagetrue]]>
+    </line>
+    <line>
+      <![CDATA[User is now in EP Quote page]]>
+    </line>
+    <line>
+      <![CDATA[Success!! user has now selected EP under Quote]]>
+    </line>
+    <line>
+      <![CDATA[Step3: Verifying validation is present or not]]>
+    </line>
+    <line>
+      <![CDATA[Validation message foundtrue]]>
+    </line>
+    <line>
+      <![CDATA[Validation message displayed]]>
+    </line>
+    <line>
+      <![CDATA[Success!! Validation message found]]>
+    </line>
+    <line>
+      <![CDATA[Step4: Passing Application number]]>
+    </line>
+    <line>
+      <![CDATA[Success!! Application number Provided]]>
+    </line>
+    <line>
+      <![CDATA[Step4: Source langugage selection]]>
+    </line>
+    <line>
+      <![CDATA[Success!! Source language selected]]>
+    </line>
+    <line>
+      <![CDATA[Step5: Verifying the source language selection]]>
+    </line>
+    <line>
+      <![CDATA[Success!! Claims Selected]]>
+    </line>
+    <line>
+      <![CDATA[Step6: Verifying File and translate option selected]]>
+    </line>
+    <line>
+      <![CDATA[Success!! File and translate selected]]>
+    </line>
+    <line>
+      <![CDATA[Step7: Verifying  target countries are being selected]]>
+    </line>
+    <line>
+      <![CDATA[Success!! User is selecting the targert countries]]>
+    </line>
+    <line>
+      <![CDATA[Step7: Verifying  File uplaoding is being perfomed]]>
+    </line>
+  </reporter-output>
+  <suite name="Automation Suite" duration-ms="77003" started-at="2019-12-03T07:22:14Z" finished-at="2019-12-03T07:23:31Z">
+    <groups>
+    </groups>
+    <test name="Login Test on Chrome" duration-ms="77003" started-at="2019-12-03T07:22:14Z" finished-at="2019-12-03T07:23:31Z">
+      <class name="functionality.LoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:functionality.LoginTest@f777e8]" name="setUp" is-config="true" duration-ms="13330" started-at="2019-12-03T12:52:14Z" finished-at="2019-12-03T12:52:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginSuccessful()[pri:0, instance:functionality.LoginTest@f777e8]" name="loginSuccessful" duration-ms="23591" started-at="2019-12-03T12:52:28Z" finished-at="2019-12-03T12:52:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1 : Navigate to Login page : http://ipcalc.azurewebsites.net/]]>
+            </line>
+            <line>
+              <![CDATA[Step 2 : Verifying whether user is logged-in successfully or not]]>
+            </line>
+            <line>
+              <![CDATA[User Logged-In : true]]>
+            </line>
+            <line>
+              <![CDATA[Success !! User Logged-In Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Success !! User logged-in Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginSuccessful -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:functionality.LoginTest@f777e8]" name="getResult" is-config="true" duration-ms="7" started-at="2019-12-03T12:52:51Z" finished-at="2019-12-03T12:52:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginSuccessful status=SUCCESS method=LoginTest.loginSuccessful()[pri:0, instance:functionality.LoginTest@f777e8] output=Step 1 : Navigate to Login page : http://ipcalc.azurewebsites.net/]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- functionality.LoginTest -->
+      <class name="functionality.Sanity_Testing_Staging">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:functionality.Sanity_Testing_Staging@bbfa04]" name="setUp" is-config="true" duration-ms="203" started-at="2019-12-03T12:52:14Z" finished-at="2019-12-03T12:52:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="Sanitytest()[pri:0, instance:functionality.Sanity_Testing_Staging@bbfa04]" name="Sanitytest" duration-ms="40056" started-at="2019-12-03T12:52:51Z" finished-at="2019-12-03T12:53:31Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MOHAMMED', ip: '192.168.21.29', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\mohammed\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c0a58a944c8d0a7882eb77f20be4fce8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MOHAMMED', ip: '192.168.21.29', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\mohammed\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c0a58a944c8d0a7882eb77f20be4fce8
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at pageFactory.login.Sanity_test.FileUploading(Sanity_test.java:289)
+	at functionality.Sanity_Testing_Staging.Sanitytest(Sanity_Testing_Staging.java:158)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Verifying whether user selected ep quote or not]]>
+            </line>
+            <line>
+              <![CDATA[User is now in EP Quote pagetrue]]>
+            </line>
+            <line>
+              <![CDATA[User is now in EP Quote page]]>
+            </line>
+            <line>
+              <![CDATA[Success!! user has now selected EP under Quote]]>
+            </line>
+            <line>
+              <![CDATA[Step3: Verifying validation is present or not]]>
+            </line>
+            <line>
+              <![CDATA[Validation message foundtrue]]>
+            </line>
+            <line>
+              <![CDATA[Validation message displayed]]>
+            </line>
+            <line>
+              <![CDATA[Success!! Validation message found]]>
+            </line>
+            <line>
+              <![CDATA[Step4: Passing Application number]]>
+            </line>
+            <line>
+              <![CDATA[Success!! Application number Provided]]>
+            </line>
+            <line>
+              <![CDATA[Step4: Source langugage selection]]>
+            </line>
+            <line>
+              <![CDATA[Success!! Source language selected]]>
+            </line>
+            <line>
+              <![CDATA[Step5: Verifying the source language selection]]>
+            </line>
+            <line>
+              <![CDATA[Success!! Claims Selected]]>
+            </line>
+            <line>
+              <![CDATA[Step6: Verifying File and translate option selected]]>
+            </line>
+            <line>
+              <![CDATA[Success!! File and translate selected]]>
+            </line>
+            <line>
+              <![CDATA[Step7: Verifying  target countries are being selected]]>
+            </line>
+            <line>
+              <![CDATA[Success!! User is selecting the targert countries]]>
+            </line>
+            <line>
+              <![CDATA[Step7: Verifying  File uplaoding is being perfomed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Sanitytest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:functionality.Sanity_Testing_Staging@bbfa04]" name="getResult" is-config="true" duration-ms="3" started-at="2019-12-03T12:53:31Z" finished-at="2019-12-03T12:53:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Sanitytest status=FAILURE method=Sanity_Testing_Staging.Sanitytest()[pri:0, instance:functionality.Sanity_Testing_Staging@bbfa04] output=Verifying whether user selected ep quote or not]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="flush_Report()[pri:0, instance:functionality.Sanity_Testing_Staging@bbfa04]" name="flush_Report" is-config="true" duration-ms="337" started-at="2019-12-03T12:53:31Z" finished-at="2019-12-03T12:53:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush_Report -->
+      </class> <!-- functionality.Sanity_Testing_Staging -->
+    </test> <!-- Login Test on Chrome -->
+  </suite> <!-- Automation Suite -->
+</testng-results>

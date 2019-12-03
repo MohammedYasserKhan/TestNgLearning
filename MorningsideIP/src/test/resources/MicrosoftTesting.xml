@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+	<parameter name="environment" value="local"/>
+	<parameter name="browser" value="chrome"/>
+	<parameter name="os" value="windows 7"/>	
+	<parameter name = "Username" value ="mohammedyasser.khan@clariontechnologies.co.in"/>
+	<parameter name = "Password" value ="Yasser@123"/>
+	<listeners>
+    	<listener class-name="utility.ExtentTestNGIReporterListener" />
+   	</listeners> 
+   	<!-- Login test -->
+	<test name="Login Test on Chrome"> 
+		<classes>
+	     	
+	     	<!-- Microsoft login test-->
+			<class name="MicrosoftFunctionality.MicrosoftLoginTest">
+	        	 <methods>
+	         		<include name="loginSuccessful"/>
+				</methods>
+			</class>
+	        
+	        <!-- Application number scrapping for EP and PCT number-->
+	        <!--<class name="MicrosoftFunctionality.MicrosoftAppnumberScrappingTest">
+	        	<methods>
+	         		<include name="MicrosoftAppnumberScrappingTesting"/>
+				</methods>
+	         </class>-->
+	         
+	        <!-- Submitting EP File and translation quote-->
+	        <!--<class name="MicrosoftFunctionality.Micro_QuoteEPFnTSubmissionTest">
+	        	<methods>
+	         		<include name="Micro_QuoteEPFnTSubmissionTesting"/>
+				</methods>
+	         </class>-->
+	         
+	         <!--Submitting EP Translation only-->
+	         <!--<class name="MicrosoftFunctionality.Micro_QuoteEPTranslationTest">
+	        	<methods>
+	         		<include name="Micro_QuoteEPFnTSubmissionTesting"/>
+				</methods>
+	         </class>-->
+	         
+	         <!--Submitting PCT File and Translation only-->
+	         <!--<class name="MicrosoftFunctionality.Micro_QuotePCTFnTSubmissionTest">
+	        	<methods>
+	         		<include name="Micro_QuotePCTFnTSubmissionTest"/>
+				</methods>
+	         	</class>-->
+	         	
+	        <!--Submitting PCT Translation submission only-->
+	        <!--<class name="MicrosoftFunctionality.Micro_QuotePCTTranslationTest">
+	        	<methods>
+	         		<include name="Micro_QuotePCTTranslationTesting"/>
+				</methods>
+	         	</class>-->
+	         	
+	        <!--Submitting PCT Translation save quote only-->
+	        <!--<class name="MicrosoftFunctionality.Micro_QuotePCTTranslationSaveTest">
+	        	<methods>
+	         		<include name="Micro_QuotePCTTranslationSaveTesting"/>
+				</methods>
+	         	</class>-->
+	         	
+	        <!--Submitting PCT Translation Discard quote only-->
+	        <!--<class name="MicrosoftFunctionality.Micro_QuotePCTTranslateDiscardTest">
+	        	<methods>
+	         		<include name="Micro_QuotePCTTranslationSaveTesting"/>
+				</methods>
+	         	</class>-->
+	         	
+	        <!--Submitting EP file and translate save quote only-->
+	        <!--<class name="MicrosoftFunctionality.Micro_QuoteEPFnTSaveTest">
+	        	<methods>
+	         		<include name="Micro_QuoteEPFnTSaveTesting"/>
+				</methods>
+	         	</class>-->
+	         	
+         	<!--Submitting EP file and translate Discard quote only-->
+	        <class name="MicrosoftFunctionality.Micro_QuoteEPFnTDiscardTest">
+	        	<methods>
+	         		<include name="Micro_QuoteEPFnTDiscardTesting"/>
+				</methods>
+	         	</class>
+	         	         
+	 	</classes>
+ 	</test> 
+<!-- Test -->
+</suite>
+<!-- Suite -->

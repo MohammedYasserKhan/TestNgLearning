@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite thread-count="1" verbose="1" name="Automation Suite" annotations="JDK" parallel="tests">
+
+	<parameter name="environment" value="local"/>
+	<parameter name="browser" value="chrome"/>
+	<parameter name="os" value="windows 7"/>	
+	<parameter name = "Username" value ="mohammedyasser.khan@clariontechnologies.co.in"/>
+	<parameter name = "Password" value ="Yasser@123"/>
+	
+	
+		
+	
+	<test name="Login Test on Chrome"> 
+	    
+	 <listeners>
+        <listener class-name="utility.ExtentTestNGIReporterListener" />
+    </listeners> 
+	   
+	   <classes>
+	 <class name="functionality.LoginTest">
+	         	<methods>
+	         		<include name="loginSuccessful"/>
+					
+				</methods>
+	         </class>
+	         	 
+	<class name="functionality.QuoteEpGrantsubmissionTest">
+	 				<methods>
+	 					<include name="EPQuoteSubmissionTesting"/>
+	 					</methods>
+	 					</class>
+	 			
+	 
+	 	        
+	         
+	     </classes>
+
+ 	</test> 
+ 	
+ 	<test name="test2"> 
+ 	<classes>
+ 	
+ 	<class name="functionality.QuoteEpgrantTemplateTest">
+	 				<methods>
+	 					<include name="QuoteEpgrantTemplateTest"/>
+	 					</methods>
+	 					</class>
+ 	</classes>
+ 	</test>
+ 	
+ 	<!-- Test -->
+  
+</suite> <!-- Suite -->

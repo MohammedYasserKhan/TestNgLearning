@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Suite]">
+  <parameter name="environment" value="local"/>
+  <parameter name="os" value="windows 7"/>
+  <parameter name="Username" value="mohammedyasser.khan@clariontechnologies.co.in"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="Password" value="Yasser@123"/>
+  <listeners>
+    <listener class-name="utility.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="Login Test on Chrome(failed)">
+    <classes>
+      <class name="functionality.Sanity_Testing_Staging">
+        <methods>
+          <include name="Sanitytest"/>
+          <include name="setUp"/>
+          <include name="getResult"/>
+          <include name="flush_Report"/>
+        </methods>
+      </class> <!-- functionality.Sanity_Testing_Staging -->
+      <class name="functionality.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- functionality.LoginTest -->
+    </classes>
+  </test> <!-- Login Test on Chrome(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->
